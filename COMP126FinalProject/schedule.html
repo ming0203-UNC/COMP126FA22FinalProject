@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
@@ -16,9 +15,35 @@
         <div class="col">
             <h1 class="text-center">University of North Carolina at Chapel Hill Men's Basketball </h1>
         </div>
-        <div class="container d-none d-md-block">
-            <div class="row ">
+        <div class="d-md-none">
+            <div class="d-flex justify-content-end">
+            <img class="UNC_logo_mobile" src="img/../img/UNC logo.png" alt="logo">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <button class="btn" onclick="parent.location='index.html'">
+                            Home
+                        </button>
+                        <button class="btn" onclick="location='about.html'">
+                            About
+                        </button>
+                        <button class="btn" onclick="location='schedule.html'">
+                            Schedule
+                        </button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="d-none d-md-block">
+            <div class="row">
                 <div class="col-md col-lg">
+                    <img class="UNC_logo" src="img/../img/UNC logo.png" alt="logo">
                     <nav class="nav justify-content-end">
                         <a class="nav-link" href="index.html">Home</a>
                         <a class="nav-link" href="about.html">About</a>
@@ -28,4 +53,28 @@
             </div>  
         </div>
     </div>
+    <div class="container content">
+        <button class="ticketbtn btn-outline-secondary" type="button">
+            Ticket
+        </button>
+    </div>
+    <footer>
+        <div class="d-md-none">
+            <div class="row d-flex align-items-center">
+                <div class="col-4"><img class="footerimg1 img-fluid" src="img/../img/ACC logo.png" alt="ACC logo"></div>
+                <div class="col-4"><img class="footerimg2 img-fluid" src="img/../img/UNC Jordan logo.png" alt="Jordan logo"></div>
+                <div class="col-4"><img class="footerimg3 img-fluid " src="img/../img/Chapel Hill logo.png" alt="ChapelHill logo"></div>
+            </div>
+        </div>
+        <div class="d-none d-md-block">
+            <div class="row d-flex align-items-center">
+                <div class="col-6"><img class="footerimg4 img-fluid" src="img/../img/Rectangle 6.png" alt="basketball logo"></div>
+                <div class="col-2"><img class="footerimg5 img-fluid" src="img/../img/ACC logo.png" alt="ACC logo"></div>
+                <div class="col-2"><img class="footerimg6 img-fluid" src="img/../img/UNC Jordan logo.png" alt="Jordan logo"></div>   
+                <div class="col-2"><img class="footerimg7 img-fluid" src="img/../img/Chapel Hill logo.png" alt="ChapelHill logo"></div>
+            </div>
+        </div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>

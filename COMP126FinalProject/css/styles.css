@@ -1,7 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Glitch&family=Sahitya&display=swap');
+
 .top {
     background-color: #9BBCE3;
 }
 
+.UNC_logo_mobile {
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.UNC_logo {
+    height: 100px;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.nav-link {
+    color: white;
+}
+
 .active {
     color: #012651;
+}
+
+.navbar {
+    background-color: #9BBCE3;
+}
+
+.btn {
+    background-color: #012651;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #012651;
+}
+
+.btn:active {
+    background-color: grey;
+}
+
+.nav-link {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.nav-link:hover {
+    color: lightgoldenrodyellow;
+}
+
+.ticketbtn {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 10;
+    color:white;
+    background-color: #012651;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.ticketbtn:hover {
+    background-color: white;
+    color:#012651;
+    border-radius: #012651;
+}
+
+.img1 {
+    margin-top: 20px;
+    height: 90%;
+}
+
+.img2 {
+    margin-top: 20px;
+    height: 90%;
+}
+
+.img3 {
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}
+
+.img4 {
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}
+
+.img1_mobile {
+    margin-top: 20px;
+    width: 85%;
+    height: 85%
+}
+
+.img2_mobile {
+    margin-top: 20px;
+    width: 85%;
+    height: 85%
+}
+
+.img3_mobile {
+    margin-top: 20px;
+    width: 85%;
+    height: 50%
+}
+
+.img4_mobile {
+    margin-top: 20px;
+    width: 85%;
+    height: 50%
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Sahitya', serif;
+}
+
+.firstParagraph {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.secondParagraph {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.thirdParagraph {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fourthParagraph {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #9BBCE3;
+}
+
+.footerimg1 {
+    margin: auto;
+    display: block;
+}
+
+.footerimg2 {
+    margin: auto;
+    display: block;
+}
+
+.footerimg3 {
+    margin: auto;
+    display: block;
+}
+
+.footerimg5 {
+    margin: auto;
+    display: block;
+}
+
+.footerimg6 {
+    margin: auto;
+    display: block;
+}
+
+.footerimg7 {
+    margin: auto;
+    display: block;
 }
