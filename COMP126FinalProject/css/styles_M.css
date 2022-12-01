@@ -136,6 +136,15 @@ p {
     margin-bottom: 50px;
 }
 
+.citation {
+    color: gray;
+    font-family: 'Sahitya', serif;
+}
+
+.citation:hover {
+    color: #012651;
+}
+
 footer {
     margin-top: 20px;
     background-color: #9BBCE3;
