@@ -29,12 +29,10 @@ h1 {
 .navbar {
     background-color: #9BBCE3;
 }
-
 .btn {
     background-color: #012651;
     color: white;
 }
-
 .btn:hover {
     background-color: white;
     color: #012651;
