@@ -70,35 +70,37 @@ h1 {
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .active {
-    color: #012651;
+    color: #012651 !important;
 }
 
 .navbar {
-    background-color: #9BBCE3;
+    background-color: #9BBCE3 !important;
 }
 .btn {
     background-color: #012651;
-    color: white;
+    color: white !important;
+    text-decoration: none !important;
+    color: inherit;
 }
 .btn:hover {
-    background-color: white;
-    color: #012651;
+    background-color: white !important;
+    color: #012651 !important;
 }
 
 .btn:active {
-    background-color: grey;
+    background-color: grey !important;
 }
 
 .nav-link {
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Rubik Glitch', cursive !important;
 }
 
 .nav-link:hover {
-    color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow !important;
 }
 
 .wrapper {
