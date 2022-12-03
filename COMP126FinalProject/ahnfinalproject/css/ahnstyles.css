@@ -3,7 +3,7 @@ h2 {
     font-family: 'Sahitya';
 }
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-p {
+p, h4 {
     font-family: 'Josefin Sans';
 }
 img {
