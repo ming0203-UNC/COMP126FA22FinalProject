@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Glitch&family=Sahitya&display=swap');
+
+.top {
+    background-color: #9BBCE3;
+}
+
+.UNC_logo_mobile {
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.UNC_logo {
+    height: 100px;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    color: #012651;
+}
+
+.navbar {
+    background-color: #9BBCE3;
+}
+.btn {
+    background-color: #012651;
+    color: white;
+}
+.btn:hover {
+    background-color: white;
+    color: #012651;
+}
+
+.btn:active {
+    background-color: grey;
+}
+
+.nav-link {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.nav-link:hover {
+    color: lightgoldenrodyellow;
+}
