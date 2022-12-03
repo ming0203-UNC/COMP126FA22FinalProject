@@ -241,3 +241,25 @@ footer {
     #sean {
         grid-area: sean;
     }
+
+    /* end of roster page css, beginning of stats page */
+
+h3 {
+    margin-top: 17px;
+    font-family: 'Rubik Bubbles';
+    color: rgb(99, 98, 98);
+}
+
+.stat {
+    width: 100%;
+}
+.box {
+    margin-top: 20px;
+}
+
+#statbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
