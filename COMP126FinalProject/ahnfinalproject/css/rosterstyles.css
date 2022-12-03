@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Sahitya&display=swap');
+h2 {
+    font-family: 'Sahitya';
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+p {
+    font-family: 'Josefin Sans';
+}
+img {
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+
+header {
+    width: 100%;
+}
+.top {
+    background-color: #9BBCE3;
+}
+.UNC_logo_mobile {
+    border-radius: 10%;
+}
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+}
+.UNC_logo {
+    height: 100px;
+    width: 120px;
+    border-radius: 10%;
+}
+.nav-link {
+    color: white;
+}
+.active {
+    color: #012651;
+}
+.navbar {
+    background-color: #9BBCE3;
+}
+.btn {
+    background-color: #012651;
+    color: white;
+}
+.btn:hover {
+    background-color: white;
+    color: #012651;
+}
+.btn:active {
+    background-color: grey;
+}
+.nav-link {
+    font-family: 'Rubik Glitch', cursive;
+}
+.nav-link:hover {
+    color: lightgoldenrodyellow;
+}
+
+.jump {
+    font-family: 'Rubik Glitch', cursive;
+    color: #9BBCE3;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-self: start;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #9BBCE3;
+}
+.footerimg1 {
+    margin: auto;
+    display: block;
+}
+.footerimg2 {
+    margin: auto;
+    display: block;
+}
+.footerimg3 {
+    margin: auto;
+    display: block;
+}
+.footerimg5 {
+    margin: auto;
+    display: block;
+}
+.footerimg6 {
+    margin: auto;
+    display: block;
+}
+.footerimg7 {
+    margin: auto;
+    display: block;
+}
+
+
+.card-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.coach-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media only screen and (min-width: 769px) {
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(9, 12%);
+        grid-template-areas: "seth leaky"
+                            "caleb dontrez"
+                            "rj armando"
+                            "dmarco jalen"
+                            "puff rob"
+                            "will justin"
+                            "tyler creighton"
+                            "jackson pete"
+                            "duwe beau";
+    }
+
+    .coach-container {
+        display: grid;
+        margin-top: 250px;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas: "hubert brad"
+                            "jeff sean";
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(3, 33.333%);
+        grid-template-rows: repeat(6, 18%);
+        grid-template-areas: "seth leaky caleb"
+                            "dontrez rj armando"
+                            "dmarco jalen puff"
+                            "rob will justin"
+                            "tyler creighton jackson"
+                            "pete duwe beau";
+    }
+
+    .coach-container {
+        margin-top: 100px;
+    }
+
+    }
+
+    #seth {
+        grid-area: seth;
+    }
+    #leaky {
+        grid-area: leaky;
+    }
+    #caleb {
+        grid-area: caleb;
+    }
+    #dontrez {
+        grid-area: dontrez;
+    }
+    #rj {
+        grid-area: rj;
+    }
+    #armando {
+        grid-area: armando;
+    }
+    #dmarco {
+        grid-area: dmarco;
+    }
+    #jalen {
+        grid-area: jalen;
+    }
+    #puff {
+        grid-area: puff;
+    }
+    #rob {
+        grid-area: rob;
+    }
+    #will {
+        grid-area: will;
+    }
+    #justin {
+        grid-area: justin;
+    }
+    #tyler {
+        grid-area: tyler;
+    }
+    #creighton {
+        grid-area: creighton;
+    }
+    #jackson {
+        grid-area: jackson;
+    }
+    #pete {
+        grid-area: pete;
+    }
+    #duwe {
+        grid-area: duwe;
+    }
+    #beau {
+        grid-area: beau;
+    }
+    
+    #hubert {
+        grid-area: hubert;
+    }
+    #brad {
+        grid-area: brad;
+    }
+    #jeff {
+        grid-area: jeff;
+    }
+    #sean {
+        grid-area: sean;
+    }
